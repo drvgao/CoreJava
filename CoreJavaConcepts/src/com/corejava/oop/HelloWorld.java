@@ -20,7 +20,7 @@ public class HelloWorld {
 	public static void main(String[] args) {
 		ConstructorDemo constructDemo = new ConstructorDemo();
 		ConstructorDemo constructDemo2 = new ConstructorDemo("Gowtham", 24, 92834134);
-		
+		constructDemo2.setName("Gowtham2");
 		System.out.println(constructDemo2.getName());
 	}
 }
