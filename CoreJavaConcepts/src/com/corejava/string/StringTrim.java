@@ -5,5 +5,10 @@ public class StringTrim {
 		System.out.println("hello   ".trim());
 		System.out.println("hello 2nd line");
 		System.out.println("hello 3rd line");
+		
+	}
+	
+	public int sum(int a, int b) {
+		return a+b;
 	}
 }
